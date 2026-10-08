@@ -1,8 +1,4 @@
 # Проект FitLife - MVP версия 1.0
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # 1. Знакомство
 print('Здравствуйте! Я Ваш помщник в приложение Fit Life.')
