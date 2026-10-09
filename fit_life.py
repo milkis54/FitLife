@@ -9,12 +9,15 @@ WATER_ML_L_KG = 1000
 # 1. Знакомство
 print('Здравствуйте! Я Ваш помщник в приложение Fit Life.')
 # Было выполнено с помощью ИИ
+user_name = ('Как я могу к Вам обращаться?')
+
 while True:
     user_name = input('Как я могу к Вам обращаться?')
     if user_name.strip():
         break
     else:
         print('Введите, пожалуйста, свое имя.')
+
 
 user_ages = int(input('Сколько Вам лет?'))
 
