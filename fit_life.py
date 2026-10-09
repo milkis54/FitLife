@@ -3,6 +3,7 @@ import sys
 import io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 WATER_PER_KG = 30
 WATER_ML_L_KG = 1000
 # 1. Знакомство
