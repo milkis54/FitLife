@@ -1,10 +1,12 @@
 # Проект FitLife - MVP версия 1.0
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 WATER_PER_KG = 30
 WATER_ML_L_KG = 1000
 # 1. Знакомство
 print('Здравствуйте! Я Ваш помщник в приложение Fit Life.')
-
-user_name = input('Как я могу к Вам обращаться?')
 # Было выполнено с помощью ИИ
 while True:
     user_name = input('Как я могу к Вам обращаться?')
@@ -14,6 +16,7 @@ while True:
         print('Введите, пожалуйста, свое имя.')
 
 user_ages = int(input('Сколько Вам лет?'))
+
 
 # 2. Сбор данных
 
